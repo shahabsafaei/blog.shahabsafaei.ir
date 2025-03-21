@@ -1,0 +1,21 @@
+baseURL = 'https://blog.shahabsafaei.ir/'
+languageCode = 'en-us'
+title = 'Shahab Safaei'
+theme = "PaperMod"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+[params]
+  showFullContent = false
+  showReadingTime = true 
+  author = 'Shahab Safaei'
